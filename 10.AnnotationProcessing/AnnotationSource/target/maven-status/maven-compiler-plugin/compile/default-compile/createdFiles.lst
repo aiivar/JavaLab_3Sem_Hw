@@ -1,0 +1,6 @@
+ru/itis/aivar/User.class
+ru/itis/aivar/InputRow.class
+ru/itis/aivar/HtmlProcessor.class
+ru/itis/aivar/HtmlInput.class
+META-INF/services/javax.annotation.processing.Processor
+ru/itis/aivar/HtmlForm.class

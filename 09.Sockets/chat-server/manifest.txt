@@ -1,0 +1,2 @@
+Main-Class: ru.itis.aivar.chat.serverpack.ChatServerStarter
+

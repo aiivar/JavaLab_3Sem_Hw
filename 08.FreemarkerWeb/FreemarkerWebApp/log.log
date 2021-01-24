@@ -1,0 +1,1216 @@
+24.01.2021 14:13:43.242 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+24.01.2021 14:13:43.249 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - HikariPool-1 - configuration:
+24.01.2021 14:13:43.252 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - catalog.........................none
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - dataSource......................none
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+24.01.2021 14:13:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+24.01.2021 14:13:43.254 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>}
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - driverClassName................."org.postgresql.Driver"
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+24.01.2021 14:13:43.255 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................10
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - minimumIdle.....................10
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - password........................<masked>
+24.01.2021 14:13:43.256 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-1"
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - readOnly........................false
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - schema..........................none
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+24.01.2021 14:13:43.257 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+24.01.2021 14:13:43.258 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - username........................"postgres"
+24.01.2021 14:13:43.258 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+24.01.2021 14:13:43.259 [RMI TCP Connection(2)-127.0.0.1] INFO   c.z.h.HikariDataSource - HikariPool-1 - Starting...
+24.01.2021 14:13:43.525 [RMI TCP Connection(2)-127.0.0.1] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c2fdfb0
+24.01.2021 14:13:43.527 [RMI TCP Connection(2)-127.0.0.1] INFO   c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+24.01.2021 14:13:43.627 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+24.01.2021 14:13:43.658 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d68dc49
+24.01.2021 14:13:43.691 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43af3b94
+24.01.2021 14:13:43.712 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9932f20
+24.01.2021 14:13:43.735 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33dad61d
+24.01.2021 14:13:43.764 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71319620
+24.01.2021 14:13:43.790 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66f350e4
+24.01.2021 14:13:43.798 [http-nio-8080-exec-3] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/
+24.01.2021 14:13:43.798 [http-nio-8080-exec-3] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/
+24.01.2021 14:13:43.805 [http-nio-8080-exec-4] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/login
+24.01.2021 14:13:43.805 [http-nio-8080-exec-4] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/login
+24.01.2021 14:13:43.814 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cc37155
+24.01.2021 14:13:43.838 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79b007db
+24.01.2021 14:13:43.858 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3989c858
+24.01.2021 14:13:43.858 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:13:44.137 [http-nio-8080-exec-7] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/
+24.01.2021 14:13:44.137 [http-nio-8080-exec-7] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/
+24.01.2021 14:13:44.188 [http-nio-8080-exec-8] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/login
+24.01.2021 14:13:44.189 [http-nio-8080-exec-8] INFO   r.i.a.f.RequestUrlLoggerFilter - /web/login
+24.01.2021 14:14:13.629 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:14:13.629 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:14:43.629 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:14:43.630 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:15:13.631 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:15:13.632 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:15:43.633 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:15:43.634 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:16:13.635 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:16:13.758 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:16:43.759 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:16:43.774 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+24.01.2021 14:17:13.774 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+24.01.2021 14:17:13.789 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+108  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+116  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+119  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+120  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+121  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+121  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+122  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+123  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+124  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+125  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+125  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+125  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+125  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+125  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+127  [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+383  [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a8eafba
+384  [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+485  [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+511  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20627f5b
+533  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ea59527
+556  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cb3ad13
+591  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ebd170f
+621  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247c7bbf
+656  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bf99b5d
+686  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@298acc26
+711  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26fa7aed
+736  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ff38732
+736  [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+742  [http-nio-8080-exec-3] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/
+742  [http-nio-8080-exec-3] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/
+745  [http-nio-8080-exec-4] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/login
+745  [http-nio-8080-exec-4] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/login
+1010 [http-nio-8080-exec-9] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/
+1011 [http-nio-8080-exec-9] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/
+1018 [http-nio-8080-exec-10] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/login
+1018 [http-nio-8080-exec-10] INFO  r.i.a.f.RequestUrlLoggerFilter - /web/login
+30486 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+30564 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+14:18:43.952 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+14:18:43.959 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+14:18:43.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+14:18:43.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+14:18:43.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+14:18:43.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+14:18:43.963 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+14:18:43.963 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+14:18:43.963 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+14:18:43.963 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+14:18:43.963 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+14:18:43.964 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+14:18:43.965 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+14:18:43.966 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+14:18:43.967 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:18:44.191 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4804aaa5
+14:18:44.193 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:18:44.293 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:18:44.321 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20627f5b
+14:18:44.341 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ea59527
+14:18:44.362 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cb3ad13
+14:18:44.393 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ebd170f
+14:18:44.418 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247c7bbf
+14:18:44.435 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bf99b5d
+14:18:44.451 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@298acc26
+14:18:44.467 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26fa7aed
+14:18:44.483 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ff38732
+14:18:44.484 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:18:44.686 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+14:18:44.687 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+14:18:44.689 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+14:18:44.689 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+14:18:45.014 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+14:18:45.015 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+14:18:45.107 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+14:18:45.107 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:01:35.249 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+15:01:35.256 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:01:35.258 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:01:35.258 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:01:35.259 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:01:35.260 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:01:35.260 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:01:35.260 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:01:35.260 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:01:35.260 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:01:35.261 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:01:35.262 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:01:35.263 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:01:35.263 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:01:35.263 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:01:35.263 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:01:35.264 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:01:35.940 [RMI TCP Connection(4)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24938d4c
+15:01:35.942 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:01:36.042 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:01:36.068 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@633ba35b
+15:01:36.088 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6dfc414c
+15:01:36.108 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12de14cf
+15:01:36.127 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1da7c1f9
+15:01:36.147 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a52c0f6
+15:01:36.168 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48a00c77
+15:01:36.187 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@439730ec
+15:01:36.204 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3674637b
+15:01:36.222 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@762aca05
+15:01:36.222 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:01:36.525 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:01:36.748 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:01:36.825 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:02:06.044 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:02:06.044 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:02:36.045 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:02:36.046 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:02:50.786 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+15:02:50.793 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:02:50.796 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:02:50.797 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:02:50.797 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:02:50.797 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:02:50.797 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:02:50.798 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:02:50.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:02:50.800 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:02:50.801 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:02:51.033 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a355696
+15:02:51.035 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:02:51.135 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:02:51.174 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20627f5b
+15:02:51.197 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ea59527
+15:02:51.219 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cb3ad13
+15:02:51.241 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ebd170f
+15:02:51.260 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247c7bbf
+15:02:51.279 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bf99b5d
+15:02:51.297 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@298acc26
+15:02:51.313 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26fa7aed
+15:02:51.329 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ff38732
+15:02:51.329 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:02:51.481 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:02:51.711 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:02:51.758 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:03:03.287 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:03:21.136 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:03:21.137 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:03:51.137 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:03:51.138 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:04:21.139 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:04:21.218 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:04:34.522 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77846d2c
+
+15:04:34.530 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:04:34.533 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:04:34.534 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:04:34.535 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:04:34.535 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:04:34.536 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:04:34.537 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:04:34.538 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:04:34.540 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:04:34.831 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@113097f3
+15:04:34.833 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:04:34.933 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:04:34.960 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2428873c
+15:04:34.980 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65158d07
+15:04:35.000 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53a7248
+15:04:35.021 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ea6e814
+15:04:35.040 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1748bcb
+15:04:35.057 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@703dc5fd
+15:04:35.077 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ad12ea2
+15:04:35.095 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53a854f2
+15:04:35.112 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18ceea53
+15:04:35.112 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:04:35.391 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:04:35.644 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:04:35.693 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:04:46.663 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:06:09.005 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s71ms642µs755ns).
+15:06:09.006 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:06:09.007 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:06:16.656 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77846d2c
+
+15:06:16.664 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:06:16.666 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:06:16.667 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:06:16.668 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:06:16.668 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:06:16.668 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:06:16.669 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:06:16.670 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:06:16.671 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:06:16.671 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:06:16.671 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:06:16.671 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:06:16.672 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:06:16.920 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4369a321
+15:06:16.921 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:06:17.022 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:06:17.053 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a71cfee
+15:06:17.088 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b4cc5d5
+15:06:17.114 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b633a9a
+15:06:17.133 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a4caa36
+15:06:17.152 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f2de540
+15:06:17.172 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@384f3ea8
+15:06:17.189 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5705555d
+15:06:17.207 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@87315d4
+15:06:17.224 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72f1746d
+15:06:17.224 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:06:17.321 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:06:17.541 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:07:34.883 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s861ms120µs820ns).
+15:07:34.892 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:07:34.895 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:07:34.895 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:07:42.926 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+15:07:42.933 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:07:42.936 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:07:42.936 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:07:42.936 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:07:42.936 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:07:42.937 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:07:42.937 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:07:42.937 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:07:42.937 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:07:42.937 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:07:42.938 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:07:42.939 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:07:42.940 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:07:42.941 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:07:43.175 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e8fb430
+15:07:43.177 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:07:43.277 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:07:43.306 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10989a12
+15:07:43.333 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e5f6671
+15:07:43.359 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bfe35be
+15:07:43.382 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ef7b65e
+15:07:43.406 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7381b103
+15:07:43.428 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b03c8f9
+15:07:43.447 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e1695b4
+15:07:43.466 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@582ba4c4
+15:07:43.485 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1db1e395
+15:07:43.485 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:07:43.680 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:07:43.906 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:07:43.965 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:07:50.986 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:08:13.279 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:08:13.279 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:08:43.281 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:08:43.281 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:09:13.282 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:09:13.283 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:09:43.284 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:09:43.364 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:10:13.370 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:10:13.371 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:10:43.372 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:10:43.373 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:11:13.374 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:11:13.375 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:11:36.446 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+15:11:36.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:11:36.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:11:36.456 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:11:36.457 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:11:36.458 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:11:36.459 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:11:36.460 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:11:36.461 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:11:36.838 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39b01ab
+15:11:36.840 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:11:36.940 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:11:36.966 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44ca028e
+15:11:36.989 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a0de467
+15:11:37.010 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f7a43c6
+15:11:37.031 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a71a292
+15:11:37.053 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67d151bb
+15:11:37.074 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f518ebd
+15:11:37.096 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79af58a1
+15:11:37.136 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4abdb677
+15:11:37.173 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a45f0ea
+15:11:37.173 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:11:37.379 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:11:37.712 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:11:37.797 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:11:44.286 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:11:44.388 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+15:12:02.098 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+15:12:06.942 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:12:06.943 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:12:36.944 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:12:36.945 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:12:56.167 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:13:03.124 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:13:03.211 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+15:13:06.946 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:13:06.946 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:13:36.947 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:13:37.033 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:14:07.034 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:14:07.035 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:14:37.036 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:14:37.126 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:15:07.127 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:15:07.128 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:15:37.129 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:15:37.130 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:59:13.812 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+15:59:13.863 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+15:59:13.868 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+15:59:13.869 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+15:59:13.869 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+15:59:13.870 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+15:59:13.870 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+15:59:13.870 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+15:59:13.870 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+15:59:13.871 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+15:59:13.871 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+15:59:13.872 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+15:59:13.873 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+15:59:13.873 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+15:59:13.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+15:59:13.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+15:59:13.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+15:59:13.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+15:59:13.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+15:59:13.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+15:59:13.876 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+15:59:13.876 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+15:59:13.876 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+15:59:13.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+15:59:13.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+15:59:13.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+15:59:13.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+15:59:13.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+15:59:13.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+15:59:13.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+15:59:13.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+15:59:13.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+15:59:13.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+15:59:13.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+15:59:13.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+15:59:13.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+15:59:13.882 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:59:14.620 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4892cc51
+15:59:14.621 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:59:14.721 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:59:14.754 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54928f7e
+15:59:14.788 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b6861a7
+15:59:14.826 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bc1f4cb
+15:59:14.858 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a397da4
+15:59:14.888 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f744ae7
+15:59:14.918 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ec1d6f0
+15:59:14.947 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@387e782f
+15:59:14.967 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f090116
+15:59:14.989 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72275f62
+15:59:14.989 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:59:15.051 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:59:25.222 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+15:59:25.256 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.291 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.597 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.608 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.611 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.614 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.619 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.624 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.629 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.632 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.639 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.644 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.647 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.658 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.701 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.732 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.734 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.736 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:25.738 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:44.724 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+15:59:44.740 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+15:59:54.205 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.214 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.240 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.244 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.247 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.253 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.256 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.258 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.260 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.263 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.266 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.268 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.271 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.273 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.276 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.278 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.281 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.284 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.287 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.290 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:54.292 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.636 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+15:59:59.663 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.667 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.671 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.674 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.677 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.681 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.684 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.688 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.691 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.695 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.710 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.712 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.715 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.717 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.719 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.722 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.725 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.727 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.730 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+15:59:59.733 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:00:14.741 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:00:14.741 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:00:44.742 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:00:44.823 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:01:14.824 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:01:14.825 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:01:38.898 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:01:38.906 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.914 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.921 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.929 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.936 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.941 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.946 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.951 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.954 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.957 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.960 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.962 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.965 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.967 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.970 [http-nio-8080-exec-6] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.972 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.974 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.977 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:38.979 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:01:44.826 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:01:44.826 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:02:14.827 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:02:14.828 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:02:34.678 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:02:34.697 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:02:34.700 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:02:34.700 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:02:34.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:02:34.702 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:02:34.703 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:02:34.704 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:02:34.706 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:02:35.004 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ad614b4
+16:02:35.006 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:02:35.106 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:02:35.142 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8800548
+16:02:35.172 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@477ae013
+16:02:35.196 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f5807f1
+16:02:35.215 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7677a298
+16:02:35.236 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cbb918c
+16:02:35.255 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@231bc4b8
+16:02:35.275 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@647f40b0
+16:02:35.293 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@289fbf55
+16:02:35.310 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58587c3b
+16:02:35.311 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:02:35.403 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:02:35.409 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:02:35.847 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:02:35.875 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:02:44.711 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:02:44.898 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:03:45.374 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:03:45.427 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:03:45.431 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:03:45.432 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:03:45.432 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:03:45.433 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:03:45.434 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:03:45.435 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:03:45.437 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:03:45.740 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22e61477
+16:03:45.743 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:03:45.843 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:03:45.873 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35e8c4f6
+16:03:45.909 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a123600
+16:03:45.938 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9ae92c0
+16:03:45.966 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ba2a92a
+16:03:45.986 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6af07c73
+16:03:46.004 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e73b7d3
+16:03:46.022 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3aadeef7
+16:03:46.043 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6841190a
+16:03:46.060 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bbe395
+16:03:46.060 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:03:46.388 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:03:46.394 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:03:46.715 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:03:46.753 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:04:15.845 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:04:15.846 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:04:34.238 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:04:34.256 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:04:45.847 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:04:45.848 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:05:15.849 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:05:15.850 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:05:45.851 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:05:45.852 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:06:15.853 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:06:15.854 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:06:45.855 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:06:45.855 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:06:53.759 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:06:53.894 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:08:12.739 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:08:12.760 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:08:12.763 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:08:12.764 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:08:12.764 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:08:12.764 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:08:12.764 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:08:12.764 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:08:12.765 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:08:12.766 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:08:12.767 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:08:12.995 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30abb3d0
+16:08:12.997 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:08:13.097 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:08:13.124 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a9ac702
+16:08:13.147 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25602e1a
+16:08:13.176 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19fe5f63
+16:08:13.208 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@140f0c51
+16:08:13.235 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a7fcbd0
+16:08:13.255 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@410168b3
+16:08:13.273 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63dcd400
+16:08:13.292 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2203690d
+16:08:13.310 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@262617d6
+16:08:13.311 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:08:13.398 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:08:13.404 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:08:13.937 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:08:13.975 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:08:24.017 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:08:24.153 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:08:43.098 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:08:43.099 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:09:16.699 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:09:16.707 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:09:16.710 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:09:16.710 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:09:16.710 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:09:16.710 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:09:16.711 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:09:16.711 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:09:16.711 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:09:16.711 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:09:16.711 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:09:16.712 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:09:16.712 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:09:16.712 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:09:16.712 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:09:16.713 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:09:16.714 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:09:16.715 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:09:16.715 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:09:16.715 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:09:16.715 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:09:16.716 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:09:16.978 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f4a2991
+16:09:16.980 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:09:17.080 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:09:17.116 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61699005
+16:09:17.144 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e937863
+16:09:17.171 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d72c0c
+16:09:17.191 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ff7b29c
+16:09:17.211 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@605d53e1
+16:09:17.230 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4af23d21
+16:09:17.248 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35919579
+16:09:17.266 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61e266ea
+16:09:17.285 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6baaf36c
+16:09:17.285 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:09:17.399 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:09:17.405 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:09:17.780 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:09:17.784 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:09:22.203 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:09:22.321 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:10:44.443 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:10:44.449 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:10:44.451 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:10:44.451 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:10:44.452 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:10:44.453 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:10:44.454 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:10:44.455 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:10:44.456 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:10:44.701 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f036c79
+16:10:44.703 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:10:44.803 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:10:44.833 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9caa7e5
+16:10:44.863 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46304297
+16:10:44.892 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a19303b
+16:10:44.918 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@773c43fc
+16:10:44.945 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79fbe4e4
+16:10:44.968 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2251677e
+16:10:44.985 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7118e065
+16:10:45.003 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3311a44
+16:10:45.022 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@254b1202
+16:10:45.022 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:10:45.122 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:10:45.128 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:10:45.425 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:10:45.467 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:10:58.231 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:10:58.246 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:11:03.800 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:11:03.932 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:13:22.532 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:13:22.541 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:13:22.546 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:13:22.547 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:13:22.547 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:13:22.547 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:13:22.548 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:13:22.548 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:13:22.548 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:13:22.548 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:13:22.548 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:13:22.549 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:13:22.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:13:22.551 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:13:22.551 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:13:22.551 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:13:22.551 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:13:22.552 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:13:22.553 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:13:22.553 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:13:22.553 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:13:22.553 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:13:22.553 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:13:22.554 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:13:22.554 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:13:22.554 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:13:22.556 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:13:22.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e96eea3
+16:13:22.876 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:13:22.976 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:13:23.016 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d134af9
+16:13:23.051 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42e9bf10
+16:13:23.082 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@553a6136
+16:13:23.111 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7361fb57
+16:13:23.140 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@365c7414
+16:13:23.168 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26881e38
+16:13:23.196 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ff5e8af
+16:13:23.224 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@656886b1
+16:13:23.229 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:13:23.246 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:13:23.257 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30c1b2dc
+16:13:23.257 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:13:25.312 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:13:25.376 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:13:30.654 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:13:30.684 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:13:52.978 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:13:52.979 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:14:22.980 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:14:22.996 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:14:24.347 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:14:24.365 [http-nio-8080-exec-5] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:14:52.997 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:14:53.005 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+16:15:02.608 [http-nio-8080-exec-7] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:15:08.153 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:15:08.290 [http-nio-8080-exec-10] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:15:42.859 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: web
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@77f99a05
+
+16:15:42.869 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:15:42.873 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:15:42.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:15:42.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:15:42.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:15:42.874 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:15:42.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:15:42.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:15:42.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:15:42.875 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:15:42.876 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:15:42.877 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:15:42.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:15:42.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javapractice
+16:15:42.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:15:42.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:15:42.878 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:15:42.879 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+16:15:42.880 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:15:42.882 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:15:43.203 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e3c17d5
+16:15:43.204 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:15:43.304 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+16:15:43.337 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78e9b56b
+16:15:43.362 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37134e3d
+16:15:43.393 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@264f759
+16:15:43.424 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ee9d67
+16:15:43.463 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6177109a
+16:15:43.496 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53728ae7
+16:15:43.522 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b2ac2b8
+16:15:43.548 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c3efe88
+16:15:43.569 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4514ce55
+16:15:43.569 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+16:15:43.717 [http-nio-8080-exec-3] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:15:43.724 [http-nio-8080-exec-4] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:15:45.332 [http-nio-8080-exec-8] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/
+16:15:45.335 [http-nio-8080-exec-9] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:15:57.099 [http-nio-8080-exec-1] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/profile
+16:15:57.115 [http-nio-8080-exec-2] INFO  r.i.a.filters.RequestUrlLoggerFilter - /web/login
+16:16:13.310 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+16:16:13.311 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
