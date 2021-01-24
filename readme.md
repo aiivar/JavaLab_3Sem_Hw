@@ -1,11 +1,11 @@
 ### 01.ThreadPool
-*[--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/01.ThreadPool/src/main/java/ru/itis/aivar/homework/threadpool)
+* [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/01.ThreadPool/src/main/java/ru/itis/aivar/homework/threadpool)
 ---
 ### 02.Picture downloader jar
-*[--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/02.JAR-app/Task2-Jar)
+* [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/02.JAR-app/Task2-Jar)
 ---
 ### 03.Picture downloader maven
-*[--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/03.MVN-app)
+* [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/03.MVN-app)
 ---
 ### 04.SimpleJdbcTemplate
 * [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/04.SimpleJdbcTemplate/src/main/java/ru/itis/aivar/simplejdbctemplate)
