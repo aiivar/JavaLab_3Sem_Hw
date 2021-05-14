@@ -2,24 +2,25 @@ package ru.itis.aivar;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import ru.itis.aivar.em.SimpleEntityManagerImpl;
 import ru.itis.aivar.model.Student;
 
 import javax.sql.DataSource;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
         SimpleEntityManagerImpl entityManager = new SimpleEntityManagerImpl(getDataSource());
-//        entityManager.createTable("student", Student.class);
-//        Student student = new Student(1L ,"Aivar", "Minsafin", 19);
-//        try {
-//            entityManager.save("student", student);
-//        } catch (IllegalAccessException e) {
-//            throw new IllegalStateException(e);
-//        }
+        entityManager.createTable("student", Student.class);
+        Student student = new Student(1L ,"Aivar", "Minsafin", 19);
+        try {
+            entityManager.save("student", student);
+        } catch (IllegalAccessException e) {
+            throw new IllegalStateException(e);
+        }
         System.out.println(entityManager.findById(Student.class, Long.class, 1L, "student"));
+        System.out.println(entityManager.findAll(Student.class));
     }
 
     public static DataSource getDataSource(){

@@ -1,4 +1,4 @@
-package ru.itis.aivar.db;
+package ru.itis.aivar.em.exceptions.db;
 
 public class NoneUniqueValueException extends DbException{
 
