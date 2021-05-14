@@ -31,7 +31,7 @@ public interface Query {
 
 }
 ```
-[Пример реализации]
+[Пример реализации](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/07.EntityManager/EntityManager/src/main/java/ru/itis/aivar/em/queries/SelectQuerySQL.java)
 
 На данный момент предусмотрены и реализованы `SelectQuery` и `InsertQuery`
 
@@ -94,7 +94,7 @@ public interface QueryBuilder {
 
 }
 ```
-[Пример реализации]
+[Пример реализации](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/07.EntityManager/EntityManager/src/main/java/ru/itis/aivar/em/queries/SelectQueryBuilderSQL.java)
 
 Реализация `Query` содержит поддерживающюю его реализацию `QueryBuilder`
 
@@ -106,8 +106,6 @@ public interface Query {
     
 }
 ```
-
-[Пример реализации]
 
 Интерфейс `EntityManager`:
 
@@ -128,4 +126,4 @@ public interface EntityManager {
     
 }
 ```
-[Пример реализации]
+[Пример реализации](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/07.EntityManager/EntityManager/src/main/java/ru/itis/aivar/em/SimpleEntityManagerImpl.java)
