@@ -23,7 +23,7 @@
 * [Filter](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/08.FreemarkerWeb/FreemarkerWebApp/src/main/java/ru/itis/aivar/filters/AuthFilter.java)
 ---
 ### 07.EntityManager
-* [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/07.EntityManager/EntityManager/src/main/java/ru/itis/aivar)
+* [--> link <--](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/07.EntityManager/EntityManager)
 ---
 ### 08.Freemarker web app
 * [Project](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/tree/main/08.FreemarkerWeb/FreemarkerWebApp)
