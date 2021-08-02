@@ -47,4 +47,4 @@
 * [Interceptor](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/11.CSRF/CSRF_SpringMVC/src/main/java/ru/itis/aivar/csrf/spring/mvc/interceptors/CsrfInterceptor.java)
 *токен передается во всех формах с post методом*
 ##### Persistent manager для сессий
-* [png](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/11.CSRF/tomcat_sessions_persistent_manager.png)
+* [png](https://github.com/AivarMinsafin/JavaLab_3Sem_Hw/blob/main/11.CSRF/tomcat_sessions_persistent_manager.png) 
